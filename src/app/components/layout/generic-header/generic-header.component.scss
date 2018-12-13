@@ -25,10 +25,10 @@ header {
 
     img {
       display: block;
-      max-width: 220px;
+      max-width: 90px;
 
       @media (max-width: $responsive-width) {
-        max-width: 80px;
+        max-width: 70px;
       }
     }
   }
@@ -42,7 +42,7 @@ header {
     @media (max-width: $responsive-width) {
       line-height: $small-height;
     }
-    
+
     span {
       font-family: 'Font Awesome 5 Free';
       font-weight: 900;
